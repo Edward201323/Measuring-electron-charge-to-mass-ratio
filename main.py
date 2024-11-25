@@ -59,7 +59,7 @@ def click_event(event, x, y, flags, param):
                 print("\nAll distances measured. Calculating radius r...\n")
                 k = measurements["k"]
                 f_val = measurements["f"]
-                r = (k**2 + f_val**2) / (math.sqrt(2) * (k - f_val))  # Correct formula for radius of deflection
+                r = (k**2 + f_val**2) / (math.sqrt(2) * (k - f_val))  # formula for radius of deflection
 
                 calculation_steps.append(
                     f"Radius calculation:\n"
