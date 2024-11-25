@@ -1,2 +1,2 @@
-# Electric-Dipoles
-Electric Dipole Simulator.
+# Thompson Experiment
+Finds the radius
